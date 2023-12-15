@@ -207,11 +207,28 @@ span {
   .search button {
     width: 20%;
   }
+
+  .modal-container {
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media screen and (width < 540px) {
   .meal-item {
     flex-basis: calc(100% - 20px);
     max-width: calc(100% - 20px);
+  }
+
+  .search input {
+    width: 80%;
+  }
+
+  .search button {
+    width: 20%;
+    font-size: 11px;
+    padding: 10px 10px;
   }
 }
